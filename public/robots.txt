@@ -1,0 +1,18 @@
+# Allow all crawlers to access the site
+User-agent: *
+Allow: /
+
+# Block admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /login/
+
+# Block unnecessary files (optional, adjust based on your site)
+Disallow: /*.php$
+Disallow: /*.log$
+Disallow: /cache/
+
+# Sitemap location
+Sitemap: https://bnautofolije.com/sitemap.xml
+
+Disallow: /search?q=*

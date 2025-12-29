@@ -1,0 +1,32 @@
+{
+  "name": "BN Auto Folije - Zatamnjivanje Stakla i Presvlačenje Auta",
+  "short_name": "BN Auto Folije",
+  "description": "Profesionalna ugradnja auto folija u Vrnjačkoj Banji. Zatamnjivanje stakla, presvlačenje vozila i zaštitne folije.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dij7ynio3/image/upload/v1740758672/favicon_i5wdkp.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://res.cloudinary.com/dij7ynio3/image/upload/v1740758672/favicon-32x32_vzjkxq.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "https://res.cloudinary.com/dij7ynio3/image/upload/v1740758672/android-chrome-192x192_bvwtqc.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["automotive", "business"],
+  "lang": "sr-RS",
+  "dir": "ltr"
+}
+

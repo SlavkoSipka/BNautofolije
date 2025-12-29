@@ -1,0 +1,4 @@
+# Security Policy
+Contact: mailto:bnautofolije@gmail.com
+Expires: 2025-12-31T23:59:59.999Z
+Preferred-Languages: sr, en
