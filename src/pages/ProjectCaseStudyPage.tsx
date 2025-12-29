@@ -137,7 +137,7 @@ export const ProjectCaseStudyPage: React.FC = () => {
           <div ref={conclusionRef} className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Zaključak</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Uspešna saradnja sa <a href="https://aisajt.com" className="text-orange-500 hover:text-orange-600 font-medium transition-colors">agencijom za izradu web sajtova</a> rezultirala je kreiranjem modernog, funkcionalnog i efikasnog web sajta koji odlično predstavlja BN Auto Folije online. Novi sajt ne samo da je poboljšao online prisustvo kompanije, već je i značajno doprineo povećanju broja klijenata i ukupnom poslovnom uspehu.
+              Uspešna saradnja sa <a href="https://aisajt.com/izrada-sajtova" className="text-orange-500 hover:text-orange-600 font-medium transition-colors">agencijom za izradu web sajtova</a> rezultirala je kreiranjem modernog, funkcionalnog i efikasnog web sajta koji odlično predstavlja BN Auto Folije online. Novi sajt ne samo da je poboljšao online prisustvo kompanije, već je i značajno doprineo povećanju broja klijenata i ukupnom poslovnom uspehu.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Projekat je pokazao važnost investiranja u kvalitetan web dizajn i razvoj, posebno u današnje vreme kada je online prisustvo ključno za uspeh bilo kog posla. BN Auto Folije sada ima profesionalan sajt koji odražava kvalitet njihovih usluga i pomaže im da privuku nove klijente.
