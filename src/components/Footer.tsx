@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Facebook, Instagram, ChevronRight } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram, ChevronRight, Info } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -99,7 +99,16 @@ export const Footer: React.FC = () => {
         <div className="w-full px-8 lg:px-16 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">© {new Date().getFullYear()} BN Auto Folije. Sva prava zadržana.</p>
-            <p className="text-gray-400 text-sm">Izrada sajta: <a href="https://aisajt.com" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors">AiSajt.com</a></p>
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <Link 
+                to="/o-projektu"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500/10 hover:bg-orange-500/20 border border-orange-500/30 hover:border-orange-500/50 rounded-lg text-orange-400 hover:text-orange-300 transition-all duration-300 text-sm font-medium group"
+              >
+                <Info size={16} className="group-hover:rotate-12 transition-transform" />
+                O projektu
+              </Link>
+              <p className="text-gray-400 text-sm">Website by <a href="https://aisajt.com" className="text-orange-500 hover:text-orange-400 transition-colors">AiSajt</a></p>
+            </div>
           </div>
         </div>
       </div>

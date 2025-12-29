@@ -8,6 +8,7 @@ import { WrappingPage } from './pages/WrappingPage';
 import { GalleryPage } from './pages/GalleryPage';
 import { GalleryItemPage } from './pages/GalleryItemPage';
 import { ContactPage } from './pages/ContactPage';
+import { ProjectCaseStudyPage } from './pages/ProjectCaseStudyPage';
 import { LoadingScreen } from './components/LoadingScreen';
 import { PageTransition } from './components/PageTransition';
 
@@ -45,6 +46,7 @@ function App() {
             <Route path="/galerija" element={<GalleryPage />} />
             <Route path="/galerija/:id" element={<GalleryItemPage />} />
             <Route path="/kontakt" element={<ContactPage />} />
+            <Route path="/o-projektu" element={<ProjectCaseStudyPage />} />
           </Routes>
         </div>
       )}

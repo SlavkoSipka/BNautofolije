@@ -71,7 +71,6 @@ export const WindowTintingSection: React.FC = () => {
             <button 
               ref={buttonRef}
               onClick={() => navigate('/zatamnjivanje-stakla')}
-              className="w-full lg:w-auto inline-flex items-center justify-center gap-2 lg:gap-3 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 sm:px-8 lg:px-10 py-4 lg:py-5 rounded-xl transition-all duration-300 text-base sm:text-lg lg:text-xl font-medium transform hover:translate-x-2 shadow-xl hover:shadow-orange-500/20 reveal-element"
               className="w-full lg:w-auto inline-flex items-center justify-center gap-2 lg:gap-3 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 sm:px-8 lg:px-10 py-3 lg:py-5 rounded-xl transition-all duration-300 text-sm sm:text-lg lg:text-xl font-medium transform hover:translate-x-2 shadow-xl hover:shadow-orange-500/20 reveal-element">
               Saznaj više
               <ChevronRight size={24} />

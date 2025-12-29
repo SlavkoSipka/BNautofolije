@@ -14,8 +14,8 @@ const partners = [
     url: 'https://www.averydennison.com/'
   },
   {
-    name: 'Partner 3',
-    logo: 'https://www.kpmf.com/assets/img/logo/logo.png',
+    name: 'KPMF',
+    logo: '/images/kpmf.png',
     url: 'https://www.kpmf.com/'
   },
   {
